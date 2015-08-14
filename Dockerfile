@@ -5,6 +5,6 @@ RUN apt-get update -y && \
     add-apt-repository ppa:webupd8team/java && \
     apt-get update -y && \
     echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections && \
-    apt-get install -y oracle-java8-installer ca-certificates && \
-    pyenv install jython-2.7.0 && \
-    pyenv global jython-2.7.0
+    apt-get install -y oracle-java8-installer ca-certificates ant && \
+    pyenv install jython-dev && \
+    pyenv global jython-dev
