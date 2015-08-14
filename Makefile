@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-jython:2.7.0
+IMAGE=mcandre/docker-jython:2.5.4-rc1
 
 all: run
 
