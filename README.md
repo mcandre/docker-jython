@@ -8,9 +8,9 @@ https://registry.hub.docker.com/u/mcandre/docker-jython/
 
 ```
 $ make
-docker run --rm mcandre/docker-jython:2.5.3 jython --version
-Jython 2.5.3
-docker run --rm mcandre/docker-jython:2.5.3 java -version
+docker run --rm mcandre/docker-jython:2.5.2 jython --version
+Jython 2.5.2
+docker run --rm mcandre/docker-jython:2.5.2 java -version
 java version "1.8.0_51"
 Java(TM) SE Runtime Environment (build 1.8.0_51-b16)
 Java HotSpot(TM) 64-Bit Server VM (build 25.51-b03, mixed mode)
