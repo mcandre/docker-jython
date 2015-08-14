@@ -6,5 +6,5 @@ RUN apt-get update -y && \
     apt-get update -y && \
     echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections && \
     apt-get install -y oracle-java8-installer ca-certificates && \
-    pyenv install jython-2.5.2 && \
-    pyenv global jython-2.5.2
+    pyenv install jython-2.5.1 && \
+    pyenv global jython-2.5.1
