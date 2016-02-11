@@ -23,6 +23,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.51-b03, mixed mode)
 ## Optional
 
 * [make](http://www.gnu.org/software/make/)
+* [Node.js](https://nodejs.org/en/) (for dockerlint)
 
 ## Debian/Ubuntu
 
